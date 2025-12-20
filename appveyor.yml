@@ -1,0 +1,19 @@
+image: Visual Studio 2022
+
+install:
+  - choco install innosetup -y
+
+build_script:
+  - echo [Setup] > installer.iss
+  - echo AppName=Mon Application >> installer.iss
+  - echo AppVersion=1.0 >> installer.iss
+  - echo DefaultDirName={pf}\MonApplication >> installer.iss
+  - echo OutputBaseFilename=MonApplicationInstaller >> installer.iss
+  - echo [Files] >> installer.iss
+  - echo Source: "windowsExe\*"; DestDir: "{app}"; Flags: recursesubdirs >> installer.iss
+  - echo [Icons] >> installer.iss
+  - echo Name: "{group}\Mon Application"; Filename: "{app}\mariage.exe" >> installer.iss
+  - iscc installer.iss
+
+artifacts:
+  - path: Output\*.exe
