@@ -10,10 +10,11 @@ build_script:
   - echo DefaultDirName={pf}\MonApplication >> installer.iss
   - echo OutputBaseFilename=MonApplicationInstaller >> installer.iss
   - echo [Files] >> installer.iss
-  - echo Source: "windowsExe\*"; DestDir: "{app}"; Flags: recursesubdirs >> installer.iss
+  - echo Source: "windowsExe/*"; DestDir: "{app}"; Flags: recursesubdirs >> installer.iss
   - echo [Icons] >> installer.iss
   - echo Name: "{group}\Mon Application"; Filename: "{app}\mariage.exe" >> installer.iss
   - iscc installer.iss
 
 artifacts:
   - path: Output\*.exe
+
