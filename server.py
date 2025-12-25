@@ -55,5 +55,7 @@ def generate():
     return send_file(tmp.name, as_attachment=True, download_name="music.wav")
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=10000)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
+
+
 
