@@ -1,0 +1,7 @@
+version: 1.0.{build}
+image: Visual Studio 2022
+
+build:
+  mode: Script
+  script:
+    - '"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" WindowsExe\installer.iss'
