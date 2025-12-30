@@ -3,5 +3,7 @@ image: Visual Studio 2022
 
 build:
   mode: Script
+  workingDirectory: WindowsExe
   script:
-    - '"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" WindowsExe\installer.iss'
+    - '"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" installer.iss'
+
