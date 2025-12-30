@@ -4,25 +4,7 @@ install:
   - choco install innosetup -y
 
 build_script:
-  - |
-    echo [Setup] > WindowsExe\installer.iss
-    echo AppName=Sacrément De Mariages >> WindowsExe\installer.iss
-    echo AppVersion=1.0 >> WindowsExe\installer.iss
-    echo DefaultDirName={pf}\Sacrément De Mariages >> WindowsExe\installer.iss
-    echo OutputDir=. >> WindowsExe\installer.iss
-    echo OutputBaseFilename=Sacrement_De_Mariages_Setup >> WindowsExe\installer.iss
-    echo SetupIconFile=WindowsExe\babu.ico >> WindowsExe\installer.iss
-    echo Compression=lzma >> WindowsExe\installer.iss
-    echo SolidCompression=yes >> WindowsExe\installer.iss
-    echo ArchitecturesInstallIn64BitMode=x64 >> WindowsExe\installer.iss
-    echo [Files] >> WindowsExe\installer.iss
-    echo Source: "WindowsExe/*"; DestDir: "{app}"; Flags: recursesubdirs createallsubdirs >> WindowsExe\installer.iss
-    echo [Icons] >> WindowsExe\installer.iss
-    echo Name: "{commondesktop}\Sacrément De Mariages"; Filename: "{app}\mariage.exe"; IconFilename: "{app}\babu.ico" >> WindowsExe\installer.iss
-    echo Name: "{group}\Sacrément De Mariages"; Filename: "{app}\mariage.exe" >> WindowsExe\installer.iss
-    echo [Run] >> WindowsExe\installer.iss
-    echo Filename: "{app}\mariage.exe"; Description: "Lancer Sacrément De Mariages"; Flags: nowait postinstall skipifsilent >> WindowsExe\installer.iss
-    "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" WindowsExe\installer.iss
+  - '"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" WindowsExe\installer.iss'
 
 artifacts:
   - path: WindowsExe\Sacrement_De_Mariages_Setup.exe
