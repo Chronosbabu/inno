@@ -1,0 +1,11 @@
+D:/a/flutter_windows_build/flutter_windows_build/build/windows/x64/runner/Release/data/icudtl.dat
+D:/a/flutter_windows_build/flutter_windows_build/build/windows/x64/runner/Release/flutter_windows.dll
+D:/a/flutter_windows_build/flutter_windows_build/build/windows/x64/runner/Release/data/flutter_assets/AssetManifest.bin
+D:/a/flutter_windows_build/flutter_windows_build/build/windows/x64/runner/Release/data/flutter_assets/FontManifest.json
+D:/a/flutter_windows_build/flutter_windows_build/build/windows/x64/runner/Release/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+D:/a/flutter_windows_build/flutter_windows_build/build/windows/x64/runner/Release/data/flutter_assets/NativeAssetsManifest.json
+D:/a/flutter_windows_build/flutter_windows_build/build/windows/x64/runner/Release/data/flutter_assets/NOTICES.Z
+D:/a/flutter_windows_build/flutter_windows_build/build/windows/x64/runner/Release/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+D:/a/flutter_windows_build/flutter_windows_build/build/windows/x64/runner/Release/data/flutter_assets/shaders/ink_sparkle.frag
+D:/a/flutter_windows_build/flutter_windows_build/build/windows/x64/runner/Release/data/flutter_assets/shaders/stretch_effect.frag
+D:/a/flutter_windows_build/flutter_windows_build/build/windows/x64/runner/Release/data/app.so
