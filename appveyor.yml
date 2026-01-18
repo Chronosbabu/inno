@@ -4,8 +4,9 @@ install:
   - choco install innosetup -y
 
 build_script:
-  - '"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" WindowsExe\installer.iss'
+  - '"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" windows-exe\installer.iss'
 
 artifacts:
-  - path: WindowsExe\Sacrement_De_Mariages_Setup.exe
+  - path: windows-exe\C-School_Setup.exe
+    name: C-School_Setup
 
