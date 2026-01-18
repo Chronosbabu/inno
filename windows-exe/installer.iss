@@ -11,7 +11,7 @@ SolidCompression=yes
 ArchitecturesInstallIn64BitMode=x64
 
 [Files]
-Source: "*"; DestDir: "{app}"; Flags: recursesubdirs createallsubdirs
+Source: "x64\runner\Release\*"; DestDir: "{app}"; Flags: recursesubdirs createallsubdirs
 
 [Icons]
 Name: "{commondesktop}\C-School"; Filename: "{app}\C-School.exe"; IconFilename: "{app}\babu.ico"
