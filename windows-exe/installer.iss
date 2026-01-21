@@ -1,14 +1,14 @@
 [Setup]
 AppName=C-Finance
 AppVersion=1.0
-DefaultDirName={pf}\C-Finance
+DefaultDirName={commonpf}\C-Finance
 DefaultGroupName=C-Finance
 OutputDir=.
 OutputBaseFilename=C-Finance-Setup
 SetupIconFile=babu.ico
 Compression=lzma
 SolidCompression=yes
-ArchitecturesInstallIn64BitMode=x64
+ArchitecturesInstallIn64BitMode=x64compatible
 
 [Files]
 ; EXE principal

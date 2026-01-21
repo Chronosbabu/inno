@@ -7,6 +7,6 @@ build_script:
   - '"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" windows-exe\installer.iss'
 
 artifacts:
-  - path: windows-exe\C-Finance.exe
-    name: C-Finace
+  - path: windows-exe\C-Finance-Setup.exe
+    name: C-Finance
 
