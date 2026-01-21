@@ -1,10 +1,10 @@
 [Setup]
-AppName=C-School
+AppName=C-Finance
 AppVersion=1.0
 DefaultDirName={pf}\C-School
-DefaultGroupName=C-School
+DefaultGroupName=C-Finance
 OutputDir=.
-OutputBaseFilename=C-School_Setup
+OutputBaseFilename=C-Finace_Setup
 SetupIconFile=babu.ico
 Compression=lzma
 SolidCompression=yes
@@ -14,9 +14,9 @@ ArchitecturesInstallIn64BitMode=x64
 Source: "x64\runner\Release\*"; DestDir: "{app}"; Flags: recursesubdirs createallsubdirs
 
 [Icons]
-Name: "{commondesktop}\C-School"; Filename: "{app}\C-School.exe"; IconFilename: "{app}\babu.ico"
-Name: "{group}\C-School"; Filename: "{app}\C-School.exe"
+Name: "{commondesktop}\C-Finance"; Filename: "{app}\C-Finance.exe"; IconFilename: "{app}\babu.ico"
+Name: "{group}\C-Finance"; Filename: "{app}\C-Finance.exe"
 
 [Run]
-Filename: "{app}\C-School.exe"; Description: "Lancer C-School"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\C-Finance.exe"; Description: "Lancer C-Finance"; Flags: nowait postinstall skipifsilent
 

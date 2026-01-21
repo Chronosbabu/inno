@@ -1,6 +1,7 @@
 D:/a/flutter_windows_build/flutter_windows_build/build/windows/x64/runner/Release/data/icudtl.dat
 D:/a/flutter_windows_build/flutter_windows_build/build/windows/x64/runner/Release/flutter_windows.dll
 D:/a/flutter_windows_build/flutter_windows_build/build/windows/x64/runner/Release/data/flutter_assets/AssetManifest.bin
+D:/a/flutter_windows_build/flutter_windows_build/build/windows/x64/runner/Release/data/flutter_assets/assets/icons/baba.png
 D:/a/flutter_windows_build/flutter_windows_build/build/windows/x64/runner/Release/data/flutter_assets/FontManifest.json
 D:/a/flutter_windows_build/flutter_windows_build/build/windows/x64/runner/Release/data/flutter_assets/fonts/MaterialIcons-Regular.otf
 D:/a/flutter_windows_build/flutter_windows_build/build/windows/x64/runner/Release/data/flutter_assets/NativeAssetsManifest.json
