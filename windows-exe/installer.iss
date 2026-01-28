@@ -1,10 +1,10 @@
 [Setup]
-AppName=C-Finance
+AppName=C-Kiocach
 AppVersion=1.0
-DefaultDirName={commonpf}\C-Finance
-DefaultGroupName=C-Finance
+DefaultDirName={commonpf}\C-Kiocach
+DefaultGroupName=C-Kiocach
 OutputDir=.
-OutputBaseFilename=C-Finance-Setup
+OutputBaseFilename=C-Kiocach-Setup
 SetupIconFile=babu.ico
 Compression=lzma
 SolidCompression=yes
@@ -24,9 +24,9 @@ Source: "x64\runner\Release\data\*"; DestDir: "{app}\data"; Flags: recursesubdir
 Source: "babu.ico"; DestDir: "{app}"
 
 [Icons]
-Name: "{commondesktop}\C-Finance"; Filename: "{app}\c_schollapp.exe"; IconFilename: "{app}\babu.ico"
-Name: "{group}\C-Finance"; Filename: "{app}\c_schollapp.exe"
+Name: "{commondesktop}\C-Kiocach"; Filename: "{app}\c_schollapp.exe"; IconFilename: "{app}\babu.ico"
+Name: "{group}\C-Kiocach"; Filename: "{app}\c_schollapp.exe"
 
 [Run]
-Filename: "{app}\c_schollapp.exe"; Description: "Lancer C-Finance"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\c_schollapp.exe"; Description: "Lancer C-Kiocach"; Flags: nowait postinstall skipifsilent
 
