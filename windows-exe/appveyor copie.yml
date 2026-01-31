@@ -7,6 +7,6 @@ build_script:
   - '"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" windows-exe\installer.iss'
 
 artifacts:
-  - path: windows-exe\C-Kiocach-Setup.exe
-    name: C-Kiocach
+  - path: windows-exe\Gestion de Kiosques-Setup.exe
+    name: Gestion de Kiosques
 

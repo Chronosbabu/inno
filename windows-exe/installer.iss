@@ -1,10 +1,10 @@
 [Setup]
-AppName=C-Kiocach
+AppName=Gestion de Kiosques
 AppVersion=1.0
-DefaultDirName={commonpf}\C-Kiocach
-DefaultGroupName=C-Kiocach
+DefaultDirName={commonpf}\Gestion de Kiosques
+DefaultGroupName=Gestion de Kiosques
 OutputDir=.
-OutputBaseFilename=C-Kiocach-Setup
+OutputBaseFilename=Gestion de Kiosques-Setup
 SetupIconFile=babu.ico
 Compression=lzma
 SolidCompression=yes
@@ -24,9 +24,9 @@ Source: "x64\runner\Release\data\*"; DestDir: "{app}\data"; Flags: recursesubdir
 Source: "babu.ico"; DestDir: "{app}"
 
 [Icons]
-Name: "{commondesktop}\C-Kiocach"; Filename: "{app}\c_schollapp.exe"; IconFilename: "{app}\babu.ico"
-Name: "{group}\C-Kiocach"; Filename: "{app}\c_schollapp.exe"
+Name: "{commondesktop}\Gestion de Kiosques"; Filename: "{app}\c_schollapp.exe"; IconFilename: "{app}\babu.ico"
+Name: "{group}\Gestion de Kiosques"; Filename: "{app}\c_schollapp.exe"
 
 [Run]
-Filename: "{app}\c_schollapp.exe"; Description: "Lancer C-Kiocach"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\c_schollapp.exe"; Description: "Lancer Gestion de Kiosques"; Flags: nowait postinstall skipifsilent
 
