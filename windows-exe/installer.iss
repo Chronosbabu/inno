@@ -1,10 +1,10 @@
 [Setup]
-AppName=Gestion de Kiosques
+AppName=C-SchoolApp
 AppVersion=1.0
-DefaultDirName={commonpf}\Gestion de Kiosques
-DefaultGroupName=Gestion de Kiosques
+DefaultDirName={commonpf}\C-SchoolApp
+DefaultGroupName=C-SchoolApp
 OutputDir=.
-OutputBaseFilename=Gestion de Kiosques-Setup
+OutputBaseFilename=C-SchoolApp-Setup
 SetupIconFile=babu.ico
 Compression=lzma
 SolidCompression=yes
@@ -24,9 +24,9 @@ Source: "x64\runner\Release\data\*"; DestDir: "{app}\data"; Flags: recursesubdir
 Source: "babu.ico"; DestDir: "{app}"
 
 [Icons]
-Name: "{commondesktop}\Gestion de Kiosques"; Filename: "{app}\c_schollapp.exe"; IconFilename: "{app}\babu.ico"
-Name: "{group}\Gestion de Kiosques"; Filename: "{app}\c_schollapp.exe"
+Name: "{commondesktop}\C-SchoolApp"; Filename: "{app}\c_schollapp.exe"; IconFilename: "{app}\babu.ico"
+Name: "{group}\C-SchoolApp"; Filename: "{app}\c_schollapp.exe"
 
 [Run]
-Filename: "{app}\c_schollapp.exe"; Description: "Lancer Gestion de Kiosques"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\c_schollapp.exe"; Description: "Lancer C-SchoolApp"; Flags: nowait postinstall skipifsilent
 
