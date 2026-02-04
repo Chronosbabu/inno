@@ -8,7 +8,7 @@ OutputBaseFilename=C-SchoolApp-Setup
 SetupIconFile=babu.ico
 Compression=lzma
 SolidCompression=yes
-ArchitecturesInstallIn64BitMode=x64compatible
+ArchitecturesInstallIn64BitMode=x64
 
 [Files]
 ; EXE principal
