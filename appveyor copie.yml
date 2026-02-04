@@ -7,9 +7,10 @@ install:
 
 build_script:
   - '& "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" "windows-exe\installer.iss"'
+  - copy "windows-exe\C-SchoolApp-Setup.exe" "%APPVEYOR_BUILD_FOLDER%\C-SchoolApp-Setup.exe"
 
 artifacts:
-  - path: windows-exe\C-SchoolApp-Setup.exe
+  - path: C-SchoolApp-Setup.exe
     name: C-SchoolApp-Setup
     type: File
 
