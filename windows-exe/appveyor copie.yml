@@ -1,0 +1,14 @@
+image: Visual Studio 2022
+
+build: off   # IMPORTANT : désactive complètement la recherche de .sln
+
+install:
+  - choco install innosetup -y
+
+build_script:
+  - '& "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" "windows-exe\installer.iss"'
+
+artifacts:
+  - path: windows-exe\C-SchoolApp-Setup.exe
+    name: C-SchoolApp
+
