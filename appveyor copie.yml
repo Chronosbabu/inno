@@ -6,10 +6,10 @@ install:
   - choco install innosetup -y
 
 build_script:
-  # Compile avec Inno Setup
+  # Compile le setup
   - '& "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" "windows-exe\installer.iss"'
-  # Déplace le fichier vers la racine pour AppVeyor
-  - powershell Copy-Item "windows-exe\C-SchoolApp-Setup.exe" "$env:APPVEYOR_BUILD_FOLDER\C-SchoolApp-Setup.exe" -Force
+  # Copie le fichier généré à la racine (AppVeyor détecte les artefacts à la racine)
+  - cmd /c copy "windows-exe\C-SchoolApp-Setup.exe" "%APPVEYOR_BUILD_FOLDER%\C-SchoolApp-Setup.exe"
 
 artifacts:
   - path: C-SchoolApp-Setup.exe
